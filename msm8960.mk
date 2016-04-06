@@ -15,7 +15,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/msm8960-common/msm8960-common-vendor.mk)
+$(call inherit-product, vendor/samsung/msm8960-common/msm8960-common-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
